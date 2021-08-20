@@ -24,7 +24,7 @@ namespace ProBHShop.Model.Models
         [Required]
         public int GroupID { set; get; }
         [ForeignKey("GroupID")]
-        public virtual MenuGoup MenuGoup { set; get; }
+        public virtual MenuGroup MenuGoup { set; get; }
         [MaxLength(10)]
         public string Target { set; get; }
         public bool Status { set; get; }

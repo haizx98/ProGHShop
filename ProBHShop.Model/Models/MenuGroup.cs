@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace ProBHShop.Model.Models
 {
     [Table("MenuGoups")]
-   public class MenuGoup
+   public class MenuGroup
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
