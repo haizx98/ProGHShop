@@ -10,7 +10,7 @@ namespace ProBHShop.Data
 {
     public class ProBHShopDbContext: DbContext
     {
-        public ProBHShopDbContext() : base("ProBHShopDbContext")
+        public ProBHShopDbContext() : base("ProBHShopConnection")
         {
             this.Configuration.LazyLoadingEnabled = false;
         }
